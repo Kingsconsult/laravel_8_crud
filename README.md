@@ -23,3 +23,5 @@ The repository is the code to one of my article on **Dev.to**, [Laravel 8 CRUD A
 3. Edit a project
 4. Delete a project
 5. View all projects
+
+{% link https://dev.to/kingsconsult/laravel-8-crud-bi9 %}
