@@ -15,15 +15,6 @@
     </script>
 
     <style>
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #9C27B0;
-            color: white;
-            text-align: center;
-        }
         body {
             background-color:  #EDF7EF
         }
@@ -34,19 +25,9 @@
 
 <body>
     @section('sidebar')
-
     @show
-
-    <div class="container">
+    <div class="container pt-5">
         @yield('content')
-    </div>
-    <div class="text-center footer">
-
-        <h4>The writer needs a job</h4>
-        <h4>+234 806 605 6233</h4>
-        <h4>kingsconsult001@gmail.com</h4>
-        <h4>Github: www.github.com/kingsconsult</h4>
-
     </div>
 </body>
 

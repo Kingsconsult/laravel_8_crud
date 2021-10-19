@@ -53,7 +53,7 @@
                 <div class="form-group">
                     <strong>Cost:</strong>
                     <input type="number" name="cost" class="form-control" placeholder="{{ $project->cost }}"
-                        value="{{ $project->location }}">
+                        value="{{ $project->cost }}">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
